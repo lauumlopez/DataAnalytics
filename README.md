@@ -1,6 +1,7 @@
 # RetailPro
 
-Proyecto de análisis de datos de ventas de una tienda de tecnología. Usa SQL Server para consultar y resumir las ventas de marzo 2024, y Power BI para visualizarlas.
+Proyecto de análisis de datos de ventas de una tienda de tecnología. Usa SQL Server para consultar y resumir las ventas registradas entre el 5 y el 15 de marzo de 2024, y Power BI para 
+visualizarlas.
 
 ## Descripción
 
@@ -39,8 +40,29 @@ DataAnalytics/
 │   └── Lopez_Laura_Checkpoint2.pbix
 ├── módulo_3/
 └── README.md
-```
 
+- **RetailPro/:** carpeta con los archivos del proyecto.
+  - **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
+  - **m5_consultas_joins.sql:** consultas con INNER JOIN, LEFT JOIN y UNION ALL.
+  - **Lopez_Laura_Checkpoint2.pbix:** reporte de Power BI.
+- **módulo_3/:** entrega del módulo 3.
+
+## Cómo ejecutar los scripts SQL
+
+1. Abrí SQL Server Management Studio y conectate a tu servidor.
+2. Abrí el script (`m4_consultas_negocio.sql` o `m5_consultas_joins.sql`).
+3. Seleccioná la base de datos `Ventas_Tech_DB`.
+4. Ejecutá el script con **F5**.
+
+## Datos
+
+10 ventas registradas entre el 5 y el 15 de marzo de 2024. Por ser un período corto, los resultados son orientativos y no representan un mes completo. Cada registro de la tabla `ventas` se cuenta como un pedido.
+
+## Hallazgos principales
+
+- La Laptop Pro 15 generó 3.600 de los 6.444 facturados (casi el 56%).
+- El Mouse Inalámbrico fue el más vendido en unidades (13), pero solo aportó 364 (5,6%).
+- Los clientes 1 y 5 gastaron 4.740 del total, cerca de tres cuartas partes de la facturación.
 - **RetailPro/:** carpeta con los archivos del proyecto.
   - **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
   - **m5_consultas_joins.sql:** consultas con INNER JOIN, LEFT JOIN y UNION ALL.
