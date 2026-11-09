@@ -32,13 +32,17 @@ Base `Ventas_Tech_DB`, con cuatro tablas:
 ## Estructura del repositorio
 
 ```
-RetailPro/
-├── m4_consultas_negocio.sql
-├── m5_consultas_joins.sql
-├── Lopez_Laura_Checkpoint2.pbix
+DataAnalytics/
+├── RetailPro/
+│   ├── m4_consultas_negocio.sql
+│   ├── m5_consultas_joins.sql
+│   └── Lopez_Laura_Checkpoint2.pbix
+├── módulo_3/
 └── README.md
 ```
 
-- **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
-- **m5_consultas_joins.sql:** consultas con INNER JOIN, LEFT JOIN y UNION ALL.
-- **Lopez_Laura_Checkpoint2.pbix:** re
+- **RetailPro/:** carpeta con los archivos del proyecto.
+  - **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
+  - **m5_consultas_joins.sql:** consultas con INNER JOIN, LEFT JOIN y UNION ALL.
+  - **Lopez_Laura_Checkpoint2.pbix:** reporte de Power BI.
+- **módulo_3/:** entrega del módulo 3.
