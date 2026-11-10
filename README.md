@@ -64,8 +64,3 @@ DataAnalytics/
 - La Laptop Pro 15 generó 3.600 de los 6.444 facturados (casi el 56%).
 - El Mouse Inalámbrico fue el más vendido en unidades (13), pero solo aportó 364 (5,6%).
 - Los clientes 1 y 5 gastaron 4.740 del total, cerca de tres cuartas partes de la facturación.
-- **RetailPro/:** carpeta con los archivos del proyecto.
-  - **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
-  - **m5_consultas_joins.sql:** consultas con INNER JOIN, LEFT JOIN y UNION ALL.
-  - **Lopez_Laura_Checkpoint2.pbix:** reporte de Power BI.
-- **módulo_3/:** entrega del módulo 3.
