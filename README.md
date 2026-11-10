@@ -40,6 +40,7 @@ DataAnalytics/
 │   └── Lopez_Laura_Checkpoint2.pbix
 ├── módulo_3/
 └── README.md
+```
 
 - **RetailPro/:** carpeta con los archivos del proyecto.
   - **m4_consultas_negocio.sql:** resumen mensual, ranking de productos, clientes recurrentes y productos por encima y por debajo del promedio.
